@@ -1,0 +1,25 @@
+<mdl-layout mdl-layout-fixed-header mdl-layout-fixed-drawer>
+  <mdl-layout-header>
+    <mdl-layout-header-row>
+      <mdl-layout-title>{{title}}</mdl-layout-title>
+      <mdl-layout-spacer></mdl-layout-spacer>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link">ALink</a>
+      </nav>
+    </mdl-layout-header-row>
+  </mdl-layout-header>
+  <mdl-layout-drawer class="side">
+    <mdl-layout-title>{{title}}</mdl-layout-title>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link white">หน้าแรก</a>
+      <a class="mdl-navigation__link white">จองที่จอดรถ</a>
+      <a class="mdl-navigation__link white">จองโต๊ะ</a>
+      <a class="mdl-navigation__link white">สั่งอาหาร</a>
+      <a class="mdl-navigation__link white">เช็คบิล</a>
+    </nav>
+  </mdl-layout-drawer>
+  <mdl-layout-content>
+    <router-outlet></router-outlet>
+  </mdl-layout-content>
+</mdl-layout>

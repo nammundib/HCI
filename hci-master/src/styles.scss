@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular-mdl/core/scss/color-definitions";
+
+$color-primary: $palette-amber-500;
+$color-primary-dark: $palette-amber-700;
+$color-accent: $palette-pink-500;
+$color-primary-contrast: $color-dark-contrast;
+$color-accent-contrast: $color-dark-contrast;
+
+@import '~@angular-mdl/core/scss/material-design-lite';
